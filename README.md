@@ -1,5 +1,5 @@
 
-# postcss-baseline-vertical-rhythm
+# postcss-baseline-vertical-rhythm [![Build Status](https://travis-ci.com/melrosesolutions/postcss-baseline-vertical-rhythm.svg?branch=master)](https://travis-ci.com/melrosesolutions/postcss-baseline-vertical-rhythm)
 A [PostCSS](http://postcss.org/) plugin to create a vertical rhythm with the baseline of text.
 
 **WARNING!** This is very much experimental alpha software. It has not been used anywhere, let alone in production. As such, it should be considered very unstable and likely to change.
