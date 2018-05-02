@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+      "eslint:recommended"
+  ],
+  "env": {
+      "jest": true,
+      "node": true
+  },
+  "rules": {
+      "indent": ["error", 2],
+      "semi": ["error", "always"]
+  }
+}

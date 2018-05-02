@@ -1,0 +1,10 @@
+
+p {
+  @baseline-vertical-rhythm {
+    font-name: TimesNewRoman;
+  }
+
+  font-family: TimesNewRoman, "Times New Roman", serif;
+  margin: 0 0 1rem;
+  background-color: rgba(0, 0, 255, 0.1);
+}

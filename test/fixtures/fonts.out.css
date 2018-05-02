@@ -1,0 +1,19 @@
+
+p {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.34rem;
+
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 1rem;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+/* background grid for debugging */
+body {
+  margin: 1rem;
+  padding: 0;
+  background-size: 1rem 1rem;
+  background-image: linear-gradient(hsla(200, 100%, 70%, 0.5) 1px, transparent 1px);
+}

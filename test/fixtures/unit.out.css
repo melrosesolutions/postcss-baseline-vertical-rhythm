@@ -1,0 +1,19 @@
+
+p {
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 8.9px;
+  padding-bottom: 8.1px;
+
+  font-family: TimesNewRoman, "Times New Roman", serif;
+  margin: 0 0 34px;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+/* background grid for debugging */
+body {
+  margin: 17px;
+  padding: 0;
+  background-size: 17px 17px;
+  background-image: linear-gradient(hsla(200, 100%, 70%, 0.5) 1px, transparent 1px);
+}
