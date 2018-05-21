@@ -8,6 +8,8 @@ __TODO__ describe sub-pixel rounding
 http://www.unumux.com/ux-insights/2016/2/24/subpixel-troubleshooting
 https://engageinteractive.co.uk/blog/em-vs-rem-vs-px
 
+__TODO__ consider making this a postcss-mixins function-mixin instead: https://github.com/postcss/postcss-mixins#function-mixin
+
 ## Usage
 Install:
 ```
