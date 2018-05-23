@@ -141,6 +141,11 @@ body {
 ```
 Replace `1.5rem` with whatever your vertical unit is.
 
+### Horizontal Scrollbars
+If you have horizontal scrollbars, you can set the height to a multiple of your vertical unit. See https://css-tricks.com/almanac/properties/s/scrollbar/
+
+Unfortunately, this only seems possible for Webkit based browsers for now. Horizontal scrollbars in Edge or Firefox will probably break your vertical rhythm.
+
 ## Stylelint Config
 If using [stylelint](https://stylelint.io/) to lint CSS, add the following rules to your configuration to prevent it breaking:
 ```
