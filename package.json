@@ -43,6 +43,7 @@
     "jest": "^22.4.3"
   },
   "dependencies": {
+    "cryptiles": ">=4.1.2",
     "merge": ">=1.2.1",
     "parse-css-dimension": "^1.1.0",
     "postcss": "^6.0.22",
