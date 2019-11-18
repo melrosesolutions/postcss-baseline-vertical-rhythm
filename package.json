@@ -4,8 +4,8 @@
   "description": "A PostCSS plugin to create a vertical rhythm with the baseline of text.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
-    "prepublish": "npm run export",
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run export",
     "test": "jest",
     "lint": "eslint src/**/*.js",
     "export": "npm run lint && npm test && npm run build"
@@ -36,18 +36,15 @@
   },
   "homepage": "https://github.com/melrosesolutions/postcss-baseline-vertical-rhythm#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-preset-es2015": "^6.24.1",
-    "eslint": "^4.19.1",
-    "jest": "^22.4.3"
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
   },
   "dependencies": {
-    "cryptiles": ">=4.1.2",
-    "merge": ">=1.2.1",
     "parse-css-dimension": "^1.1.0",
-    "postcss": "^6.0.22",
-    "randomatic": ">=3.0.0"
+    "postcss": "^7.0.21"
   },
   "jest": {
     "verbose": true,
