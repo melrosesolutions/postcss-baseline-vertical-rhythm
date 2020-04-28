@@ -1,6 +1,6 @@
 {
   "name": "postcss-baseline-vertical-rhythm",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A PostCSS plugin to create a vertical rhythm with the baseline of text.",
   "main": "./dist/index.js",
   "scripts": {
