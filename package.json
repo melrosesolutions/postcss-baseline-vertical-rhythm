@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "parse-css-dimension": "^1.1.0",
-    "postcss": "^7.0.21"
+    "postcss": "^8.2.10"
   },
   "jest": {
     "verbose": true,
