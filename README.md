@@ -13,7 +13,7 @@ __TODO__ consider making this a postcss-mixins function-mixin instead: https://g
 ## Usage
 Install:
 ```
-npm install postcss-baseline-vertical-rhythm --save-dev
+npm install --save-dev postcss postcss-baseline-vertical-rhythm
 ```
 
 Then include the plugin:
